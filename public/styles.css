@@ -1,0 +1,178 @@
+.container-fluid{
+    background-color:#674aad;
+    height: 60px;
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    
+}
+body {
+    margin: 0px;
+ }
+ .navbar{
+  
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    color: aliceblue;
+    font-size: larger;
+    
+    
+  }
+  .navbar-brand{
+    font-size: larger;
+  }
+  .pp{
+    font-size: xx-large;
+  }
+  .titleimage{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    left:550px;
+    top:-170px;
+    
+
+
+  }
+#first{
+  margin-top: 40px;
+}
+
+
+ 
+ .h1{
+  font-size: 40px;
+  margin-right: 0px;
+  padding-right: 0px;
+  font-family: 'Varela Round', sans-serif;
+ }
+
+ .text{
+  padding-right: 0px;
+  position: relative;
+  left: 150px;
+  top: 100px;
+  color: #674aad;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40px;
+  
+ }
+
+ #featureHeading {
+  margin-top: 20px;
+  color: var(--primary-title);
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #593c9c;
+}
+.card {
+  transition: all 0.2s ease-in;
+  padding: 1.1rem;
+  background-color: #96a6ce5b;
+  border-radius: 1.25rem;
+  box-shadow: 5px 5px 10px #b69ef1;
+  color: #593c9c;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px #6940d3;
+}
+/* hover effect for image when card is hover */
+.card:hover .card-img-top {
+  border: 2px solid #6940d3;
+  border-radius: 0.8rem;
+}
+.card-body {
+  min-height: 145px;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+}
+
+.card-title {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Features{
+  z-index: 100;
+  margin-top: 10px;
+}
+ 
+#featureHeading{
+  color:#674aad; ;
+}
+
+.cssbuttons-io-button {
+  background: #A370F0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  margin-bottom: 10px;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+.nnnnn{
+margin-top: -8px;
+}
+
+
+
+ 
+
+
+
